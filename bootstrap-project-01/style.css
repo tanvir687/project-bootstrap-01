@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar,
+.hero {
+  width: 90%;
+  margin: 0 auto;
+}
+.hero-logo {
+  height: 50px;
+  width: 50px;
+  background-color: lightblue;
+}
+.fa-bars {
+  background-color: orange;
+  border-radius: 50%;
+  padding: 2px 12px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* hero left */
+.hero-area {
+  display: flex;
+}
+.hero {
+  padding: 20px 0px 0px 0px;
+}
+.hero-title {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  padding: 25px 0px;
+}
+.img-container {
+  flex: 8;
+}
+.img-container img {
+  width: 100%;
+}
+.primary-btn {
+  background-color: rgba(102, 65, 238, 1);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.btn-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.date {
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 400;
+  font-weight: bold;
+  color: rgba(26, 26, 26, 1);
+  padding-top: 15px;
+}
+
+/* hero right  */
+.right-btn-content {
+  flex: 4;
+  padding: 0px 40px;
+}
+.primary-btn-business {
+  background-color: rgba(227, 192, 52, 1);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.right-text-pera {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  padding-top: 10px;
+}
+.right-hr{
+  border: 1px solid black;
+}
+.primary-btn-technology{
+  background-color: rgba(231, 76, 60, 1);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.primary-btn-culture{
+  background-color: rgba(56, 173, 232, 1);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.primary-btn-health{
+  background-color: rgba(50, 210, 85, 1);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.primary-btn-sports{
+  background-color: rgba(232, 73, 58, 1);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}

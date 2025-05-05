@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article Blog</title>
+    <!-- bootstrap cdn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- inter font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigation bar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/nav-logo.png" alt="logo" class="hero-logo"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Health News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">World News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Culture</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Subscribe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Cart(0)</a>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <i class="fa-solid fa-bars"></i>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation bar end -->
+
+    <!-- hero part start  -->
+    <section class="hero">
+      <div class="container-fluid hero-area">
+        <!-- image section -->
+        <div class="img-container">
+          <img src="./images/hero-img.png" alt="hero-img">
+          <h2 class="hero-title">Revolutionizing manufacturing emerging trends
+            shaping the industry</h2>
+          <div class="btn-section">
+            <button class="primary-btn"><i class="fa-solid fa-globe"></i>    World News</button>
+          <p class="date">- Jan 25, 2025</p>
+          </div>
+        </div>
+
+        <!-- text section  -->
+        <div class="right-btn-content">
+          <!-- section 01 -->
+          <div class="btn-section">
+            <button class="primary-btn-business"><img src="./images/business-icon.png" alt="business-icon"> Business </button>
+          <p class="date"> - FEB 10, 2025</p>
+          </div>
+          <h4 class="right-text-pera">Adapting business strategies to meet changing
+            demands</h4>
+            <hr class="right-hr">         
+             <!-- section 02 -->
+          <div class="btn-section">
+            <button class="primary-btn-technology"><img src="./images/technology.png" alt="technology-icon"> Technology </button>
+          <p class="date"> - FEB 10, 2025</p>
+          </div>
+          <h4 class="right-text-pera">Smart homes revolution how iot is transforming
+            living spaces</h4>
+            <hr>
+             <!-- section 03 -->
+          <div class="btn-section">
+            <button class="primary-btn-culture"><img src="./images/culture.png" alt="business-icon"> Culture </button>
+          <p class="date"> - JAN 27, 2025</p>
+          </div>
+          <h4 class="right-text-pera">The power of art in connecting and expressing
+            cultural</h4>
+            <hr>
+             <!-- section 04 -->
+          <div class="btn-section">
+            <button class="primary-btn-health"><img src="./images/health.png" alt="health"> Health News </button>
+          <p class="date"> - JAN 27, 2025</p>
+          </div>
+          <h4 class="right-text-pera">How artificial intelligence & machine learning are
+            changing the field</h4>
+            <hr>
+             <!-- section 05 -->
+          <div class="btn-section">
+            <button class="primary-btn-sports"><img src="./images/sport.png" alt="sports-icon"> Sports </button>
+          <p class="date"> -  JAN 27, 2025</p>
+          </div>
+          <h4 class="right-text-pera">The influence of youth sports programs on
+            developing future champions</h4>
+            <hr>
+          
+
+
+        </div>
+        
+    </section>
+    <!-- hero part end -->
+    <!-- scrip tag bootstrap  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
