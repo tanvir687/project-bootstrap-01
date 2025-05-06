@@ -5,7 +5,8 @@
 }
 
 .navbar,
-.hero {
+.hero,
+.image-area {
   width: 90%;
   margin: 0 auto;
 }
@@ -70,7 +71,7 @@
 /* hero right  */
 .right-btn-content {
   flex: 4;
-  padding: 0px 40px;
+  padding: 0px 0px 0px 40px;
 }
 .primary-btn-business {
   background-color: rgba(227, 192, 52, 1);
@@ -89,6 +90,7 @@
   font-weight: 500;
   color: rgba(0, 0, 0, 1);
   padding-top: 10px;
+  line-height: 20px;
 }
 .right-hr{
   border: 1px solid black;
@@ -136,4 +138,37 @@
   cursor: pointer;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  
+}
+
+/* image area start  */
+.image{
+  /* width: 100%; */
+  padding: 80px 0px;
+  gap: 20px;
+}
+.img-title{
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.6;
+  width: 95%;
+  position: relative;
+  bottom: 45px;
+  padding: 10px 20px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.row-area{
+  display: flex;
+  /* gap: 20px; */
+  justify-content: space-between;
+}
+.img-01-container img,
+.img-02-container img,
+.img-03-container img,
+.img-04-container img,
+.img-05-container img{
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 5px;
 }
