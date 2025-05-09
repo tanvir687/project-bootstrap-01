@@ -7,7 +7,8 @@
 .navbar,
 .hero,
 .image-area,
-.editors-area {
+.editors-area,
+.news-main-container {
   width: 90%;
   margin: 0 auto;
 }
@@ -178,12 +179,12 @@
   /* padding: 2rem; */
   background-color: rgb(249, 248, 248);
 }
-.first-pera{
+.first-pera {
   padding: 2rem 2rem 0rem 2rem;
 }
 .second-pera,
 .third-pera,
-.forth-pera{
+.forth-pera {
   padding: 0rem 2rem;
 }
 .editors-first-title {
@@ -219,7 +220,9 @@
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  margin-bottom: 4rem;
+}
+.editors {
+  padding: 0rem 0rem 5rem 0rem;
 }
 .left-area {
   flex: 10;
@@ -234,4 +237,17 @@
 }
 /* editors part end */
 
+/* latest area start  */
+.news-area {
+  background-color: rgba(240, 143, 100, 1);
+}
+.news-date {
+  color: rgba(26, 26, 26, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+}
+.news-title {
+  width: 75%;
+}
 
+/* latest area end */
