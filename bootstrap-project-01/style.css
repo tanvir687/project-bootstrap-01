@@ -7,8 +7,7 @@
 .navbar,
 .hero,
 .image-area,
-.editors-area,
-.news-main-container {
+.editors-area {
   width: 90%;
   margin: 0 auto;
 }
