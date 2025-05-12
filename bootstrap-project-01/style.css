@@ -8,8 +8,9 @@
 .hero,
 .image-area,
 .editors-area,
-.news-main-container {
-  width: 90%;
+.news-main-container,
+.technology-area {
+  width: 95%;
   margin: 0 auto;
 }
 .hero-logo {
@@ -247,7 +248,25 @@
   font-size: 0.7rem;
 }
 .news-title {
-  width: 75%;
+  width: 85%;
+}
+.letest-img-cart-01,
+.letest-img-cart-02,
+.letest-img-cart-03 {
+  height: 100px;
+  width: 180px;
+}
+.col-3-pera {
+  font-size: 14px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0px;
+  width: 5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay-img {
+  width: 105%;
+}
 /* latest area end */
