@@ -270,3 +270,20 @@
   width: 105%;
 }
 /* latest area end */
+
+/* ad-campaign part start  */
+.overlay-add-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: 98%;
+}
+.main-content {
+  position: absolute;
+  top: 238px;
+}
+/* ad-campaign part end */
